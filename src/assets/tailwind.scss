@@ -1,0 +1,33 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  @apply font-bold text-blue-900;
+}
+
+h1 {
+  @apply text-7xl;
+}
+h2 {
+  @apply text-4xl;
+}
+h3 {
+  @apply text-3xl;
+}
+h4 {
+  @apply text-2xl;
+}
+
+.button {
+  @apply bg-white rounded-full p-4 font-bold pl-10 pr-10 text-blue-900;
+}
+.button-outline {
+  @apply border border-white rounded-full p-4 font-bold pl-10 pr-10 text-white;
+}
